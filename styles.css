@@ -5,55 +5,282 @@ body {
 }
 
 
-#header {
-    text-align: center;
+
+.container {
+    display: flex;
 }
-
-h1 {
-    text-align: center;
-    color: #120505;
-}
-
-h2 {
-    text-align: center;
-
-}
-
-
 
 /* Home page */
 
-
-#domspic {
-    text-align: center;
+header {
+    position: relative;
+    display: block;
+    left: 10cm;
 }
 
-#h3a {text-align: center;}
-
-/* About page */
-#img1 {
-    text-align: center;
+.row1 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: 9cm;
+    color: #120505;
 }
 
-#img2 {
+
+/* Dom's pic */
+.row2 {
+    position: relative;
+    display: block;
     text-align: center;
+    top: 0cm;
+    right: -1cm;
+    height: 500px;
+    width: 900px;
 }
 
-#img3 {
-    text-align: center;
+.row3 {
+    position: relative;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    min-width: 20cm;
+    left: 1cm;
+    top: 1cm;
 }
+
+.row4 {
+    position: relative;
+    display: block;
+    font-size: x-large;
+    font-weight: bold;
+    min-width: 200cm;
+    left: -1cm;
+    top: 1cm;
+}
+
+/* aboout page */
+
+.row6 {
+    position: relative;
+    display: block;
+    left: 10cm;
+    max-width: 20cm;
+}
+
+.row7 {
+    position: relative;
+    display: block;
+    left: 10cm;
+    max-width: 20cm;
+
+
+}
+
+.row8 {
+    position: relative;
+    display: block;
+    left: 6cm;
+    max-width: 20cm;
+}
+
+.row9 {
+    position: relative;
+    display: block;
+    left: 10cm;
+    max-width: 20cm;
+}
+
+.row10 {
+    position: relative;
+    display: block;
+    left: 6cm;
+    max-width: 20cm;
+}
+
+.row11 {
+    position: relative;
+    display: block;
+    left: 4cm;
+    max-width: 20cm;
+}
+
+.row12 {
+    position: relative;
+    display: block;
+    left: 0cm;
+    max-width: 20cm;
+}
+
+
+
 
 /* portfolio */
+.row13 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: 1cm;
+    max-width: 20cm;
+    z-index: 10;
+}
 
-#img4 {
+.row14 {
+    position: relative;
+    display: block;
+    min-width: 21cm;
+    left: -6cm;
+    top: 0.5cm;
+    max-width: 20cm;
+
+
+}
+
+.row15 {
+    position: relative;
+    display: block;
+    min-width: 21cm;
+    left: -28cm;
+    top: 2cm;
+    max-width: 20cm;
+}
+
+.row16 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: -48.5cm;
+    top: 4cm;
+    max-width: 20cm;
+}
+
+.row17 {
+    position: relative;
+    display: block;
+    min-width: 20cm;
+    left: -68.5cm;
+    top: 12cm;
+    max-width: 20cm;
+}
+
+.row18 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: -84cm;
+    top: 19cm;
+    max-width: 20cm;
+}
+
+.row19 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: -98.5cm;
+    top: 21cm;
+    max-width: 20cm;
+}
+
+.row20 {
+    position: relative;
+    display: block;
+    min-width: 20cm;
+    left: -118cm;
+    top: 29cm;
+    max-width: 20cm;
+}
+
+.row21 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: -134cm;
+    top: 38cm;
+    max-width: 20cm;
+
+}
+
+.row22 {
+    position: relative;
+    display: block;
+    min-width: 15cm;
+    left: -148.5cm;
+    top: 40cm;
+    max-width: 20cm;
+
+}
+
+.row23 {
+    position: relative;
+    display: block;
+    min-width: 20cm;
+    left: -168cm;
+    top: 54cm;
+    max-width: 20cm;
+}
+
+li:hover {
+    font-size: 25px;
+
+}
+
+/* Contacts */
+#contactsbody {
+    background-color: rgb(64, 64, 126);
+}
+
+.container2 {
+    position: relative;
+    display: inline-block;
+    left: 7cm;
+    top: 1cm;
+    border: 3px solid black;
+    background: rgb(101, 40, 109);
+    height: 15cm;
+    width: 11cm;
     text-align: center;
 }
 
-#img5 {
-    text-align: center;
+
+#fname {
+    position: relative;
+    display: block;
+    left: 0cm;
+    top: 0cm;
 
 }
 
-#img5 {
-    text-align: centerß;
+#lname {
+    position: relative;
+    display: block;
+    left: 0cm;
+    top: 0cm;}
+
+
+#email {
+    position: relative;
+    display: block;
+    left: 0cm;
+    top: 1cm;
+
+}
+#text2 {
+    position: relative;
+    display: block;
+    padding: 2cm 1cm;
+    left: 3cm;
+    top: 1cm;}
+
+#submit {
+    position: relative;
+    display: block;
+    left: -1cm;
+    top: 2cm;
+
+}
+#SUCCESS {
+    position: relative;
+    font-size: 100px;
+    top: 12cm;
+    left: -2cm;
+    color: #ca23d3;
 }
